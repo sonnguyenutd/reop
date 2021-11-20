@@ -32,12 +32,14 @@ class Command(object):
             self.out = None
 
     # set default timeout to 2 minutes
-    def run(self, capture = False, timeout = 120):
+    def run(self, capture = False, timeout = 120, filename=""):
         thread = threading.Thread(target=self.run_command, args=(capture,))
         thread.start()
         thread.join(timeout)
         if thread.is_alive():
             print ("Command timeout, kill it: " + self.cmd)
+            if os.path.exists(filename): 
+            	os.remove(filename)
             # self.process.kill()
             kill(self.process.pid)
             thread.join()
@@ -94,7 +96,10 @@ for f in pddlFiles:
             
             reduced_domain = containingDir+"/"+"reduced-"+probName+"-domain.pddl"
             reduced_prob = containingDir+"/"+"reduced-"+probName+".pddl"
-            Command(redop+" "+domain+" "+prob+" > "+dkel).run(timeout=600)
-            Command(prep_domain+" "+domain+" "+prob+" "+dkel+" > "+reduced_domain).run(timeout=300)
-            Command(prep_prob+" "+domain+" "+prob+" "+dkel+" > "+reduced_prob).run(timeout=300)
+            Command(redop+" "+domain+" "+prob+" > "+dkel).run(timeout=900, filename=dkel)
+            if os.path.isfile(dkel):
+            	Command(prep_domain+" "+domain+" "+prob+" "+dkel+" > "+reduced_domain).run(timeout=300)
+            	Command(prep_prob+" "+domain+" "+prob+" "+dkel+" > "+reduced_prob).run(timeout=300)
+            else:
+            	break
         
