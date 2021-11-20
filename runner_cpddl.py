@@ -42,12 +42,7 @@ class Command(object):
             thread.join()
         return self.out
 
-def findProbs(containingDir,pddlFiles):
-    probFiles = []
-    for other in pddlFiles:
-        if other.startswith(containingDir) and not os.path.isfile(other.replace(".pddl", "_ops.txt")) and not other.endswith("domain.pddl"):
-            probFiles.append(other)
-    return probFiles
+
 
 
 benchmark = "."
@@ -59,8 +54,19 @@ for r, d, f in os.walk(benchmark):
     for file in f:
         if '.pddl' in file:
             pddlFiles.append(os.path.join(r, file))
-fd = "pddl-fdr --em-fdr -o"
+
 mode = "em-fdr"
+fd = "pddl-fdr --"+mode+" -o"
+
+def findProbs(containingDir,pddlFiles):
+    probFiles = []
+    for other in pddlFiles:
+        pddfF = open(other)
+        outfile = containingDir+"/"+pddfF.name+"_"+mode+".out"
+        if other.startswith(containingDir) and not os.path.isfile(outfile) and not other.endswith("domain.pddl"):
+            probFiles.append(other)
+    return probFiles
+
 for f in pddlFiles:
     if f.endswith("domain.pddl"):
         domain = f
@@ -69,6 +75,8 @@ for f in pddlFiles:
         probFiles.sort()
         for prob in probFiles:
             print(prob)
+            date_time = Command('date').run(capture=True)
+            print (date_time)
             pddfF = open(prob)
             Command(fd+" "+pddfF.name+"_"+mode+".out "+domain+ " "+prob).run(timeout=300)
         

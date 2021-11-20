@@ -58,7 +58,9 @@ import os
 def findProbs(containingDir,pddlFiles):
     probFiles = []
     for other in pddlFiles:
-        if other.startswith(containingDir) and not os.path.isfile(other.replace(".pddl", "_ops.txt")) and not other.endswith("domain.pddl"):
+        pddfF = open(other)
+        dkel = containingDir+"/"+pddfF.name.replace(".pddl","")+"-redop.dkel"
+        if other.startswith(containingDir) and not os.path.isfile(dkel) and not other.endswith("domain.pddl"):
             probFiles.append(other)
     return probFiles
 
@@ -85,6 +87,8 @@ for f in pddlFiles:
         probFiles.sort()
         for prob in probFiles:
             print(prob)
+            date_time = Command('date').run(capture=True)
+            print (date_time)
             pddfF = open(prob)
             dkel = pddfF.name.replace(".pddl","")+"-redop.dkel"
             reduced_domain = "reduced-"+pddfF.name.replace(".pddl","-domain.pddl")
