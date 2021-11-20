@@ -56,7 +56,7 @@ for r, d, f in os.walk(benchmark):
             pddlFiles.append(os.path.join(r, file))
 
 mode = "em-fdr"
-fd = "pddl-fdr --"+mode+" -o"
+fd = "../cppdl/bin/pddl-fdr --"+mode+" -o"
 
 def findProbs(containingDir,pddlFiles):
     probFiles = []

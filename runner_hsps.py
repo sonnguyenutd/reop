@@ -74,11 +74,9 @@ for r, d, f in os.walk(benchmark):
     for file in f:
         if '.pddl' in file:
             pddlFiles.append(os.path.join(r, file))
-redop = "pddlcat -redop -a"
+redop = "../hsps/pddlcat -redop -a"
 prep_domain = "pddlcat -prep -no-problem"
 prep_prob = "pddlcat -prep -no-domain"
-# random.shuffle(pddlFiles)
-# pddlFiles.sort()
 for f in pddlFiles:
     if f.endswith("domain.pddl"):
         domain = f
