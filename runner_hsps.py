@@ -80,6 +80,9 @@ for r, d, f in os.walk(benchmark):
 redop = "../hsps/pddlcat -redop -a"
 prep_domain = "../hsps/pddlcat -prep -no-problem"
 prep_prob = "../hsps/pddlcat -prep -no-domain"
+
+random.shuffle(pddlFiles)
+
 for f in pddlFiles:
     if f.endswith("domain.pddl"):
         domain = f

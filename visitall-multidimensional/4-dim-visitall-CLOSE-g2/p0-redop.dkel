@@ -1,0 +1,2 @@
+(define (problem visitall-4-dim-p-0)
+ (:domain visitall-4-dim)
