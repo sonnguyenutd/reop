@@ -84,14 +84,17 @@ for f in pddlFiles:
         probFiles = findProbs(containingDir,pddlFiles)
         probFiles.sort()
         for prob in probFiles:
-            print(prob)
+            #print(prob)
             date_time = Command('date').run(capture=True)
-            print (date_time)
+            #print (date_time)
             pddfF = open(prob)
             dkel = pddfF.name.replace(".pddl","")+"-redop.dkel"
+            
             reduced_domain = "reduced-"+pddfF.name.replace(".pddl","-domain.pddl")
             reduced_prob = "reduced-"+pddfF.name
-            Command(redop+" "+domain+" "+prob+" > "+dkel).run(timeout=300)
-            Command(prep_domain+" "+domain+" "+prob+" "+dkel+" > "+reduced_domain).run(timeout=300)
-            Command(prep_prob+" "+domain+" "+prob+" "+dkel+" > "+reduced_prob).run(timeout=300)
+            print(pddfF.name)
+            print(reduced_domain)
+            #Command(redop+" "+domain+" "+prob+" > "+dkel).run(timeout=300)
+            #Command(prep_domain+" "+domain+" "+prob+" "+dkel+" > "+reduced_domain).run(timeout=300)
+            #Command(prep_prob+" "+domain+" "+prob+" "+dkel+" > "+reduced_prob).run(timeout=300)
         

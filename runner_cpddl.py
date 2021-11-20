@@ -78,5 +78,5 @@ for f in pddlFiles:
             date_time = Command('date').run(capture=True)
             print (date_time)
             pddfF = open(prob)
-            Command(fd+" "+pddfF.name+"_"+mode+".out "+domain+ " "+prob).run(timeout=300)
+            Command(fd+" "+pddfF.name+"_"+mode+".out "+domain+ " "+prob).run(timeout=600)
         
