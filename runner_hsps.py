@@ -59,7 +59,7 @@ def findProbs(containingDir,pddlFiles):
     probFiles = []
     for other in pddlFiles:
         pddfF = open(other)
-        dkel = containingDir+"/"+pddfF.name.replace(".pddl","")+"-redop.dkel"
+        dkel = containingDir+"/"+other.replace(".pddl","-redop.dkel")
         if other.startswith(containingDir) and not os.path.isfile(dkel) and not other.endswith("domain.pddl"):
             probFiles.append(other)
     return probFiles
@@ -84,17 +84,16 @@ for f in pddlFiles:
         probFiles = findProbs(containingDir,pddlFiles)
         probFiles.sort()
         for prob in probFiles:
-            #print(prob)
+            print(prob)
             date_time = Command('date').run(capture=True)
-            #print (date_time)
-            pddfF = open(prob)
-            dkel = pddfF.name.replace(".pddl","")+"-redop.dkel"
+            print (date_time)
+            head, tail = os.path.split(prob)
+            probName = tail.replace(".pddl","")
+            dkel = containingDir+"/"+probName+"-redop.dkel"
             
-            reduced_domain = "reduced-"+pddfF.name.replace(".pddl","-domain.pddl")
-            reduced_prob = "reduced-"+pddfF.name
-            print(pddfF.name)
-            print(reduced_domain)
-            #Command(redop+" "+domain+" "+prob+" > "+dkel).run(timeout=300)
-            #Command(prep_domain+" "+domain+" "+prob+" "+dkel+" > "+reduced_domain).run(timeout=300)
-            #Command(prep_prob+" "+domain+" "+prob+" "+dkel+" > "+reduced_prob).run(timeout=300)
+            reduced_domain = containingDir+"/"+"reduced-"+probName+"-domain.pddl"
+            reduced_prob = containingDir+"/"+"reduced-"+probName+".pddl"
+            Command(redop+" "+domain+" "+prob+" > "+dkel).run(timeout=300)
+            Command(prep_domain+" "+domain+" "+prob+" "+dkel+" > "+reduced_domain).run(timeout=300)
+            Command(prep_prob+" "+domain+" "+prob+" "+dkel+" > "+reduced_prob).run(timeout=300)
         

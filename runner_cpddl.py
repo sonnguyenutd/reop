@@ -61,8 +61,10 @@ fd = "../cpddl/bin/pddl-fdr --"+mode+" -o"
 def findProbs(containingDir,pddlFiles):
     probFiles = []
     for other in pddlFiles:
-        pddfF = open(other)
-        outfile = containingDir+"/"+pddfF.name+"_"+mode+".out"
+        head, tail = os.path.split(other)
+        probName = tail.replace(".pddl","")
+
+        outfile = containingDir+"/"+probName+"_"+mode+".out"
         if other.startswith(containingDir) and not os.path.isfile(outfile) and not other.endswith("domain.pddl"):
             probFiles.append(other)
     return probFiles
