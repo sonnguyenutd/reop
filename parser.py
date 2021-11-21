@@ -83,5 +83,8 @@ for f in pddlFiles:
         probFiles.sort()
         for prob in probFiles:
             print(prob)
-            Command(fd+" "+domain+" "+prob).run(timeout=500)
+            Command(fd+" "+domain+" "+prob).run(timeout=600)
+            if not os.path.isfile(prob.replace(".pddl", "_ops.txt")):
+                break
+
         
