@@ -53,7 +53,7 @@ pddlFiles = []
 # r=root, d=directories, f = files
 for r, d, f in os.walk(benchmark):
     for file in f:
-        if '.pddl' in file:
+        if '.pddl' in file and 'reduced' not in file:
             pddlFiles.append(os.path.join(r, file))
 
 mode = "em-fdr-ts"
@@ -85,10 +85,10 @@ for f in pddlFiles:
            
             head, tail = os.path.split(prob)
             probName = tail.replace(".pddl","")
-            outfile = containingDir+"/"+probName+"_"+mode+".out"
-            
-            Command(fd+" "+probName+"_"+mode+".out "+domain+ " "+prob).run(timeout=900)
-            if os.path.isfile(outfile):
-                break
+            outfile = containingDir+""+probName+"_"+mode+".out"
+            print (fd+" "+outfile+" "+domain+ " "+prob)
+            # Command(fd+" "+outfile+" "+domain+ " "+prob).run(timeout=900)
+            # if os.path.isfile(outfile):
+                # break
 
         
