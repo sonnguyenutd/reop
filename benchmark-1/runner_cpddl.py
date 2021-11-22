@@ -87,8 +87,8 @@ for f in pddlFiles:
             probName = tail.replace(".pddl","")
             outfile = containingDir+""+probName+"_"+mode+".out"
             print (fd+" "+outfile+" "+domain+ " "+prob)
-            # Command(fd+" "+outfile+" "+domain+ " "+prob).run(timeout=900)
-            # if os.path.isfile(outfile):
-                # break
+            Command(fd+" "+outfile+" "+domain+ " "+prob).run(timeout=900)
+            if os.path.isfile(outfile):
+                break
 
         
