@@ -2,6 +2,7 @@ import subprocess
 import threading
 import os,signal
 import psutil
+import random
 
 """ Run system commands with timeout
 """
@@ -56,7 +57,9 @@ for r, d, f in os.walk(benchmark):
             pddlFiles.append(os.path.join(r, file))
 
 mode = "em-fdr"
-fd = "../cpddl/bin/pddl-fdr --"+mode+" -o"
+fd = "../../cpddl/bin/pddl-fdr --"+mode+" -o"
+
+random.shuffle(pddlFiles)
 
 def findProbs(containingDir,pddlFiles):
     probFiles = []
@@ -79,6 +82,13 @@ for f in pddlFiles:
             print(prob)
             date_time = Command('date').run(capture=True)
             print (date_time)
-            pddfF = open(prob)
-            Command(fd+" "+pddfF.name+"_"+mode+".out "+domain+ " "+prob).run(timeout=600)
+           
+            head, tail = os.path.split(prob)
+            probName = tail.replace(".pddl","")
+            outfile = containingDir+"/"+probName+"_"+mode+".out"
+            
+            Command(fd+" "+probName+"_"+mode+".out "+domain+ " "+prob).run(timeout=900)
+            if os.path.isfile(outfile):
+                break
+
         
