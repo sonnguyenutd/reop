@@ -56,7 +56,7 @@ for r, d, f in os.walk(benchmark):
         if '.pddl' in file:
             pddlFiles.append(os.path.join(r, file))
 
-mode = "em-fdr"
+mode = "em-fdr-ts"
 fd = "../../cpddl/bin/pddl-fdr --"+mode+" -o"
 
 random.shuffle(pddlFiles)
