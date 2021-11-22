@@ -99,7 +99,7 @@ for f in pddlFiles:
             
             reduced_domain = containingDir+"/"+"reduced-"+probName+"-domain.pddl"
             reduced_prob = containingDir+"/"+"reduced-"+probName+".pddl"
-            Command(redop+" "+domain+" "+prob+" > "+dkel).run(timeout=900, filename=dkel)
+            Command(redop+" "+domain+" "+prob+" > "+dkel).run(timeout=1000, filename=dkel)
             if os.path.isfile(dkel):
             	Command(prep_domain+" "+domain+" "+prob+" "+dkel+" > "+reduced_domain).run(timeout=300)
             	Command(prep_prob+" "+domain+" "+prob+" "+dkel+" > "+reduced_prob).run(timeout=300)
