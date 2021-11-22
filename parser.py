@@ -63,7 +63,7 @@ def findProbs(containingDir,pddlFiles):
     return probFiles
 
 
-benchmark = "."
+benchmark = "visitall-multidimensional/5-dim-visitall-CLOSE-g1"
 
 
 pddlFiles = []
@@ -83,7 +83,7 @@ for f in pddlFiles:
         probFiles.sort()
         for prob in probFiles:
             print(prob)
-            Command(fd+" "+domain+" "+prob).run(timeout=600)
+            Command(fd+" "+domain+" "+prob).run(timeout=900)
             if not os.path.isfile(prob.replace(".pddl", "_ops.txt")):
                 break
 
