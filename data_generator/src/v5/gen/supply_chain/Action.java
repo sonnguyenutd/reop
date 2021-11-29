@@ -11,9 +11,9 @@ import v6.gen.analysis.action.Operator;
 
 public class Action {
 	String name;
-	Set<String> preconds;
-	Set<String> pEffects;
-	Set<String> nEffects;
+	protected Set<String> preconds;
+	protected Set<String> pEffects;
+	protected Set<String> nEffects;
 
 	int currentLevel = 0;
 	Set<Action> dependents;
@@ -260,4 +260,24 @@ public class Action {
 		return combo;
 	}
 
+	protected void addNEffects(Set<String> neffects) {
+		this.nEffects.addAll(neffects);
+	}
+	
+	
+	/**
+	 * Take appropriate actions in remainingActs, add them to the set of members.
+	 * (Rovers). Different from setMembers
+	 * @param remainingActs
+	 */
+	public void takeMembers(Set<Action> remainingActs) {
+	}
+
+	public Set<Action> getAllMembers() {
+		return null;
+	}
+
+	public int getSize() {
+		return 1;
+	}
 }

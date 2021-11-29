@@ -11,7 +11,7 @@ import v5.gen.supply_chain.Action;
 public class Parser {
 
 	public static void main(String[] args) throws InterruptedException {
-		String file = "/Users/sonnguyen/Downloads/benchmarks/childsnack-contents/parsize1-cham7/contentam3-p25_ops.txt";
+		String file = "../benchmark-1/childsnack-contents/parsize1-cham7/contentam3-p25_ops.txt";
 		String content = Utils.read(file);
 		String[] parts = content.trim().split("-----");
 		Set<Action> allActions = new HashSet<>();
@@ -41,15 +41,8 @@ public class Parser {
 				}
 			}
 		}
-//		for (Action act : allActions) {
-//			System.out.println(act.toPDDL());
-//			break;
-//		}
+		
 		System.out.println(allActions.size());
 		System.out.println(allActions.size() / (double) map.size());
-		for (Set<String> pre : map.keySet()) {
-			System.out.println(pre + "-->" + map.get(pre).size());
-		}
-//		ParentDomainConstructor.construct(file, map);
 	}
 }

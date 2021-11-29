@@ -17,6 +17,7 @@ public class LOADTRUCK extends Action {
 		String from = parts[3];
 		addPre("at-" + truck + "-" + from);
 		addPre("at-" + o + "-" + from);
+		
 		addNEffect("at-" + o + "-" + from);
 		addPEffect("in-" + o + "-" + truck);
 	}

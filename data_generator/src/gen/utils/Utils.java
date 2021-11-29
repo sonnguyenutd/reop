@@ -137,6 +137,26 @@ public class Utils {
 		return domain;
 	}
 
+	public static String toDomain(Collection<Action> allActions, String name, Set<String> additionalPredicates) {
+		StringBuffer predicates = new StringBuffer();
+		StringBuffer actions = new StringBuffer();
+		Set<String> allPredicate = new HashSet<String>(additionalPredicates);
+
+		for (Action a : allActions) {
+			actions.append(a.toPDDL() + "\n");
+			allPredicate.addAll(a.getAllPredicates());
+		}
+
+		predicates.append("(:predicates\n");
+		for (String p : allPredicate) {
+			predicates.append("\t(" + p + ")\n");
+		}
+		predicates.append(")\n");
+
+		String domain = "(define (domain " + name + ")\n" + predicates.toString() + actions.toString() + "\n)";
+		return domain;
+	}
+
 	public static String toProblem(String init, String goal) {
 		String domain = "(define (problem prob1) (:domain test)\n " + "\t(:init \n \t" + init + "\n\t)\n"
 				+ "\t(:goal (and \n \t" + goal + "\n\t)\n)" + "\n)";
@@ -185,18 +205,17 @@ public class Utils {
 		}
 //		System.out.println(content);
 //		System.out.println("--------------------");
-		write(Config.path + Config.size + "/REP_"+type+".txt", content);
+		write(Config.path + Config.size + "/REP_" + type + ".txt", content);
 	}
 
-
-	public static <T extends Object> Set<T> randomSet(Set<T> elements, int numOfElms){
-		if(numOfElms >= elements.size())
+	public static <T extends Object> Set<T> randomSet(Set<T> elements, int numOfElms) {
+		if (numOfElms >= elements.size())
 			return elements;
 		Set<T> result = new HashSet<>();
 		List<T> elList = new ArrayList<>(elements);
 		Collections.shuffle(elList);
-		while(result.size() < numOfElms) {
-			int i = randomNumber(0, elements.size()-1);
+		while (result.size() < numOfElms) {
+			int i = randomNumber(0, elements.size() - 1);
 			result.add(elList.get(i));
 		}
 		return result;
@@ -206,5 +225,45 @@ public class Utils {
 		Set<String> intersection = new HashSet<String>(s1);
 		intersection.retainAll(s2);
 		return !intersection.isEmpty();
+	}
+
+	public static <T> T selectAnElm(Collection<T> navs) {
+		if (navs == null || navs.isEmpty())
+			return null;
+		for (T action : navs) {
+			return action;
+		}
+		return null;
+	}
+
+	public static int findClosingParen(char[] text, int openPos) {
+		int closePos = openPos;
+		int counter = 1;
+		while (counter > 0) {
+			char c = text[++closePos];
+			if (c == '(') {
+				counter++;
+			} else if (c == ')') {
+				counter--;
+			}
+		}
+		return closePos;
+	}
+
+	public static Set<String> extractPredicates(String prob) {
+		String content = read(prob);
+		int index = content.indexOf("(:init") + "(:init".length();
+		int end = findClosingParen(content.toCharArray(), index);
+		if (end > 0) {
+			Set<String> result = new HashSet<>();
+			String init = content.substring(index, end).trim();
+			String[] lines = init.split("\n");
+			for (String l : lines) {
+				result.add(l.replace("(", "").replace(")", ""));
+			}
+			return result;
+		}
+
+		return null;
 	}
 }

@@ -16,7 +16,7 @@ public class Calibrate extends Action {
 //		String objective = parts[3]; 
 		String point = parts[4];
 		addPre("at-" + rover + "-" + point);
-		addPre("available-" + rover);
+//		addPre("available-" + rover);
 		addPEffect("calibrated-" + camera + "-" + rover);
 	}
 

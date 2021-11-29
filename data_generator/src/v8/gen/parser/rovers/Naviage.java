@@ -20,7 +20,8 @@ public class Naviage extends Action {
 		to = parts[3];
 		rover = parts[1];
 		addPre("at-" + rover + "-" + from);
-		addPre("available-" + rover);
+//		addPre("available-" + rover);
+		
 		addNEffect("at-" + rover + "-" + from);
 		addPEffect("at-" + rover + "-" + to);
 	}

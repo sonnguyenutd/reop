@@ -10,9 +10,12 @@ import java.util.Set;
 import gen.utils.Utils;
 import v5.gen.supply_chain.Action;
 
-public class ParentDomainConstructor {
+public class VParentDomainConstructor {
+	public static void main(String[] args) {
+		String file = "../benchmark-1/logistics-large-simple/goal-1/p-a1-c1-s1000-p10-t1-g1_ops.txt";
+	}
 	public static void construct(String opsFile, Map<Set<String>, Set<Action>> map) {
-		StringBuffer output = new StringBuffer("(define (domain test)\n");
+		StringBuffer domain = new StringBuffer("(define (domain test)\n");
 		StringBuffer predicates = new StringBuffer("(:predicates \n");
 		Set<String> predicateSet = new HashSet<>();
 		StringBuffer actions = new StringBuffer();
@@ -43,11 +46,11 @@ public class ParentDomainConstructor {
 
 		predicates.append("\n)\n");
 
-		output.append(predicates);
-		output.append(actions);
+		domain.append(predicates);
+		domain.append(actions);
 
-		output.append("\n)");
-		Utils.write(opsFile.replace("_ops.txt", "_p.pddl"), output.toString());
+		domain.append("\n)");
+		Utils.write(opsFile.replace("_ops.txt", "_p_domain.pddl"), domain.toString());
 		Utils.write(opsFile.replace("_ops.txt", "_map.txt"), children_parentPDDL.toString());
 
 		// Handle problem file
@@ -55,7 +58,7 @@ public class ParentDomainConstructor {
 
 	}
 
-	private static void handleProbleFile(String opsFile) {
+	protected static void handleProbleFile(String opsFile) {
 		String newFile = opsFile.replace("_ops.txt", "_p_prob.pddl");
 		String probFile = opsFile.replace("_ops.txt", ".pddl");
 		StringBuffer content = new StringBuffer("(define (problem test)\n" + "(:domain test)");

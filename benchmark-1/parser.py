@@ -63,7 +63,7 @@ def findProbs(containingDir,pddlFiles):
     return probFiles
 
 
-benchmark = "visitall-multidimensional/5-dim-visitall-CLOSE-g1"
+benchmark = "blocksworld-large-simple"
 
 
 pddlFiles = []

@@ -13,6 +13,7 @@ public class SampleRock extends Action {
 		addPre("at-" + rover + "-" + point);
 		addPre("at_rock_sample-" + point);
 		addPre("empty-" + store);
+		
 		addPEffect("full-" + store);
 		addPEffect("have_rock_analysis-" + rover + "-" + point);
 		addNEffect("empty-" + store);
