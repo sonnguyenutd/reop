@@ -1,0 +1,1545 @@
+begin_version
+3
+end_version
+begin_metric
+1
+end_metric
+18
+begin_variable
+var0
+-1
+6
+at tray0 kitchen
+at tray0 table0
+at tray0 table1
+at tray0 table2
+at tray0 table3
+at tray0 table4
+end_variable
+begin_variable
+var1
+-1
+6
+at tray1 kitchen
+at tray1 table0
+at tray1 table1
+at tray1 table2
+at tray1 table3
+at tray1 table4
+end_variable
+begin_variable
+var2
+-1
+6
+at tray2 kitchen
+at tray2 table0
+at tray2 table1
+at tray2 table2
+at tray2 table3
+at tray2 table4
+end_variable
+begin_variable
+var3
+-1
+6
+at_kitchen_sandwich sandw0
+notexist sandw0
+ontray sandw0 tray0
+ontray sandw0 tray1
+ontray sandw0 tray2
+none-of-those
+end_variable
+begin_variable
+var4
+-1
+6
+at_kitchen_sandwich sandw1
+notexist sandw1
+ontray sandw1 tray0
+ontray sandw1 tray1
+ontray sandw1 tray2
+none-of-those
+end_variable
+begin_variable
+var5
+-1
+6
+at_kitchen_sandwich sandw2
+notexist sandw2
+ontray sandw2 tray0
+ontray sandw2 tray1
+ontray sandw2 tray2
+none-of-those
+end_variable
+begin_variable
+var6
+-1
+2
+at_kitchen_bread bread0
+none-of-those
+end_variable
+begin_variable
+var7
+-1
+2
+at_kitchen_bread bread1
+none-of-those
+end_variable
+begin_variable
+var8
+-1
+2
+at_kitchen_bread bread2
+none-of-those
+end_variable
+begin_variable
+var9
+-1
+2
+at_kitchen_content content-0-0
+none-of-those
+end_variable
+begin_variable
+var10
+-1
+2
+at_kitchen_content content-0-1
+none-of-those
+end_variable
+begin_variable
+var11
+-1
+2
+at_kitchen_content content-0-2
+none-of-those
+end_variable
+begin_variable
+var12
+-1
+2
+sandwich_contents sandw0 content-0
+none-of-those
+end_variable
+begin_variable
+var13
+-1
+2
+sandwich_contents sandw1 content-0
+none-of-those
+end_variable
+begin_variable
+var14
+-1
+2
+sandwich_contents sandw2 content-0
+none-of-those
+end_variable
+begin_variable
+var15
+-1
+2
+served child0
+none-of-those
+end_variable
+begin_variable
+var16
+-1
+2
+served child1
+none-of-those
+end_variable
+begin_variable
+var17
+-1
+2
+served child2
+none-of-those
+end_variable
+21
+begin_mutex_group
+1
+6 0
+end_mutex_group
+begin_mutex_group
+1
+7 0
+end_mutex_group
+begin_mutex_group
+1
+8 0
+end_mutex_group
+begin_mutex_group
+1
+9 0
+end_mutex_group
+begin_mutex_group
+1
+10 0
+end_mutex_group
+begin_mutex_group
+1
+11 0
+end_mutex_group
+begin_mutex_group
+1
+3 1
+end_mutex_group
+begin_mutex_group
+1
+4 1
+end_mutex_group
+begin_mutex_group
+1
+5 1
+end_mutex_group
+begin_mutex_group
+2
+3 0
+3 1
+end_mutex_group
+begin_mutex_group
+2
+4 0
+4 1
+end_mutex_group
+begin_mutex_group
+2
+5 0
+5 1
+end_mutex_group
+begin_mutex_group
+2
+3 1
+12 0
+end_mutex_group
+begin_mutex_group
+2
+4 1
+13 0
+end_mutex_group
+begin_mutex_group
+2
+5 1
+14 0
+end_mutex_group
+begin_mutex_group
+5
+3 0
+3 1
+3 2
+3 3
+3 4
+end_mutex_group
+begin_mutex_group
+5
+4 0
+4 1
+4 2
+4 3
+4 4
+end_mutex_group
+begin_mutex_group
+5
+5 0
+5 1
+5 2
+5 3
+5 4
+end_mutex_group
+begin_mutex_group
+6
+0 0
+0 1
+0 2
+0 3
+0 4
+0 5
+end_mutex_group
+begin_mutex_group
+6
+1 0
+1 1
+1 2
+1 3
+1 4
+1 5
+end_mutex_group
+begin_mutex_group
+6
+2 0
+2 1
+2 2
+2 3
+2 4
+2 5
+end_mutex_group
+begin_state
+0
+0
+0
+1
+1
+1
+0
+0
+0
+0
+0
+0
+1
+1
+1
+1
+1
+1
+end_state
+begin_goal
+3
+15 0
+16 0
+17 0
+end_goal
+153
+begin_operator
+make_sandwich sandw0 bread0 content-0-0 content-0
+0
+4
+0 3 1 0
+0 6 0 1
+0 9 0 1
+0 12 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-1 content-0
+0
+4
+0 3 1 0
+0 6 0 1
+0 10 0 1
+0 12 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-2 content-0
+0
+4
+0 3 1 0
+0 6 0 1
+0 11 0 1
+0 12 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-0 content-0
+0
+4
+0 3 1 0
+0 7 0 1
+0 9 0 1
+0 12 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-1 content-0
+0
+4
+0 3 1 0
+0 7 0 1
+0 10 0 1
+0 12 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-2 content-0
+0
+4
+0 3 1 0
+0 7 0 1
+0 11 0 1
+0 12 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-0 content-0
+0
+4
+0 3 1 0
+0 8 0 1
+0 9 0 1
+0 12 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-1 content-0
+0
+4
+0 3 1 0
+0 8 0 1
+0 10 0 1
+0 12 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-2 content-0
+0
+4
+0 3 1 0
+0 8 0 1
+0 11 0 1
+0 12 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-0 content-0
+0
+4
+0 4 1 0
+0 6 0 1
+0 9 0 1
+0 13 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-1 content-0
+0
+4
+0 4 1 0
+0 6 0 1
+0 10 0 1
+0 13 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-2 content-0
+0
+4
+0 4 1 0
+0 6 0 1
+0 11 0 1
+0 13 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-0 content-0
+0
+4
+0 4 1 0
+0 7 0 1
+0 9 0 1
+0 13 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-1 content-0
+0
+4
+0 4 1 0
+0 7 0 1
+0 10 0 1
+0 13 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-2 content-0
+0
+4
+0 4 1 0
+0 7 0 1
+0 11 0 1
+0 13 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-0 content-0
+0
+4
+0 4 1 0
+0 8 0 1
+0 9 0 1
+0 13 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-1 content-0
+0
+4
+0 4 1 0
+0 8 0 1
+0 10 0 1
+0 13 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-2 content-0
+0
+4
+0 4 1 0
+0 8 0 1
+0 11 0 1
+0 13 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-0 content-0
+0
+4
+0 5 1 0
+0 6 0 1
+0 9 0 1
+0 14 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-1 content-0
+0
+4
+0 5 1 0
+0 6 0 1
+0 10 0 1
+0 14 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-2 content-0
+0
+4
+0 5 1 0
+0 6 0 1
+0 11 0 1
+0 14 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-0 content-0
+0
+4
+0 5 1 0
+0 7 0 1
+0 9 0 1
+0 14 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-1 content-0
+0
+4
+0 5 1 0
+0 7 0 1
+0 10 0 1
+0 14 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-2 content-0
+0
+4
+0 5 1 0
+0 7 0 1
+0 11 0 1
+0 14 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-0 content-0
+0
+4
+0 5 1 0
+0 8 0 1
+0 9 0 1
+0 14 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-1 content-0
+0
+4
+0 5 1 0
+0 8 0 1
+0 10 0 1
+0 14 -1 0
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-2 content-0
+0
+4
+0 5 1 0
+0 8 0 1
+0 11 0 1
+0 14 -1 0
+1
+end_operator
+begin_operator
+move_tray tray0 kitchen table0
+0
+1
+0 0 0 1
+1
+end_operator
+begin_operator
+move_tray tray0 kitchen table1
+0
+1
+0 0 0 2
+1
+end_operator
+begin_operator
+move_tray tray0 kitchen table2
+0
+1
+0 0 0 3
+1
+end_operator
+begin_operator
+move_tray tray0 kitchen table3
+0
+1
+0 0 0 4
+1
+end_operator
+begin_operator
+move_tray tray0 kitchen table4
+0
+1
+0 0 0 5
+1
+end_operator
+begin_operator
+move_tray tray0 table0 kitchen
+0
+1
+0 0 1 0
+1
+end_operator
+begin_operator
+move_tray tray0 table0 table1
+0
+1
+0 0 1 2
+1
+end_operator
+begin_operator
+move_tray tray0 table0 table2
+0
+1
+0 0 1 3
+1
+end_operator
+begin_operator
+move_tray tray0 table0 table3
+0
+1
+0 0 1 4
+1
+end_operator
+begin_operator
+move_tray tray0 table0 table4
+0
+1
+0 0 1 5
+1
+end_operator
+begin_operator
+move_tray tray0 table1 kitchen
+0
+1
+0 0 2 0
+1
+end_operator
+begin_operator
+move_tray tray0 table1 table0
+0
+1
+0 0 2 1
+1
+end_operator
+begin_operator
+move_tray tray0 table1 table2
+0
+1
+0 0 2 3
+1
+end_operator
+begin_operator
+move_tray tray0 table1 table3
+0
+1
+0 0 2 4
+1
+end_operator
+begin_operator
+move_tray tray0 table1 table4
+0
+1
+0 0 2 5
+1
+end_operator
+begin_operator
+move_tray tray0 table2 kitchen
+0
+1
+0 0 3 0
+1
+end_operator
+begin_operator
+move_tray tray0 table2 table0
+0
+1
+0 0 3 1
+1
+end_operator
+begin_operator
+move_tray tray0 table2 table1
+0
+1
+0 0 3 2
+1
+end_operator
+begin_operator
+move_tray tray0 table2 table3
+0
+1
+0 0 3 4
+1
+end_operator
+begin_operator
+move_tray tray0 table2 table4
+0
+1
+0 0 3 5
+1
+end_operator
+begin_operator
+move_tray tray0 table3 kitchen
+0
+1
+0 0 4 0
+1
+end_operator
+begin_operator
+move_tray tray0 table3 table0
+0
+1
+0 0 4 1
+1
+end_operator
+begin_operator
+move_tray tray0 table3 table1
+0
+1
+0 0 4 2
+1
+end_operator
+begin_operator
+move_tray tray0 table3 table2
+0
+1
+0 0 4 3
+1
+end_operator
+begin_operator
+move_tray tray0 table3 table4
+0
+1
+0 0 4 5
+1
+end_operator
+begin_operator
+move_tray tray0 table4 kitchen
+0
+1
+0 0 5 0
+1
+end_operator
+begin_operator
+move_tray tray0 table4 table0
+0
+1
+0 0 5 1
+1
+end_operator
+begin_operator
+move_tray tray0 table4 table1
+0
+1
+0 0 5 2
+1
+end_operator
+begin_operator
+move_tray tray0 table4 table2
+0
+1
+0 0 5 3
+1
+end_operator
+begin_operator
+move_tray tray0 table4 table3
+0
+1
+0 0 5 4
+1
+end_operator
+begin_operator
+move_tray tray1 kitchen table0
+0
+1
+0 1 0 1
+1
+end_operator
+begin_operator
+move_tray tray1 kitchen table1
+0
+1
+0 1 0 2
+1
+end_operator
+begin_operator
+move_tray tray1 kitchen table2
+0
+1
+0 1 0 3
+1
+end_operator
+begin_operator
+move_tray tray1 kitchen table3
+0
+1
+0 1 0 4
+1
+end_operator
+begin_operator
+move_tray tray1 kitchen table4
+0
+1
+0 1 0 5
+1
+end_operator
+begin_operator
+move_tray tray1 table0 kitchen
+0
+1
+0 1 1 0
+1
+end_operator
+begin_operator
+move_tray tray1 table0 table1
+0
+1
+0 1 1 2
+1
+end_operator
+begin_operator
+move_tray tray1 table0 table2
+0
+1
+0 1 1 3
+1
+end_operator
+begin_operator
+move_tray tray1 table0 table3
+0
+1
+0 1 1 4
+1
+end_operator
+begin_operator
+move_tray tray1 table0 table4
+0
+1
+0 1 1 5
+1
+end_operator
+begin_operator
+move_tray tray1 table1 kitchen
+0
+1
+0 1 2 0
+1
+end_operator
+begin_operator
+move_tray tray1 table1 table0
+0
+1
+0 1 2 1
+1
+end_operator
+begin_operator
+move_tray tray1 table1 table2
+0
+1
+0 1 2 3
+1
+end_operator
+begin_operator
+move_tray tray1 table1 table3
+0
+1
+0 1 2 4
+1
+end_operator
+begin_operator
+move_tray tray1 table1 table4
+0
+1
+0 1 2 5
+1
+end_operator
+begin_operator
+move_tray tray1 table2 kitchen
+0
+1
+0 1 3 0
+1
+end_operator
+begin_operator
+move_tray tray1 table2 table0
+0
+1
+0 1 3 1
+1
+end_operator
+begin_operator
+move_tray tray1 table2 table1
+0
+1
+0 1 3 2
+1
+end_operator
+begin_operator
+move_tray tray1 table2 table3
+0
+1
+0 1 3 4
+1
+end_operator
+begin_operator
+move_tray tray1 table2 table4
+0
+1
+0 1 3 5
+1
+end_operator
+begin_operator
+move_tray tray1 table3 kitchen
+0
+1
+0 1 4 0
+1
+end_operator
+begin_operator
+move_tray tray1 table3 table0
+0
+1
+0 1 4 1
+1
+end_operator
+begin_operator
+move_tray tray1 table3 table1
+0
+1
+0 1 4 2
+1
+end_operator
+begin_operator
+move_tray tray1 table3 table2
+0
+1
+0 1 4 3
+1
+end_operator
+begin_operator
+move_tray tray1 table3 table4
+0
+1
+0 1 4 5
+1
+end_operator
+begin_operator
+move_tray tray1 table4 kitchen
+0
+1
+0 1 5 0
+1
+end_operator
+begin_operator
+move_tray tray1 table4 table0
+0
+1
+0 1 5 1
+1
+end_operator
+begin_operator
+move_tray tray1 table4 table1
+0
+1
+0 1 5 2
+1
+end_operator
+begin_operator
+move_tray tray1 table4 table2
+0
+1
+0 1 5 3
+1
+end_operator
+begin_operator
+move_tray tray1 table4 table3
+0
+1
+0 1 5 4
+1
+end_operator
+begin_operator
+move_tray tray2 kitchen table0
+0
+1
+0 2 0 1
+1
+end_operator
+begin_operator
+move_tray tray2 kitchen table1
+0
+1
+0 2 0 2
+1
+end_operator
+begin_operator
+move_tray tray2 kitchen table2
+0
+1
+0 2 0 3
+1
+end_operator
+begin_operator
+move_tray tray2 kitchen table3
+0
+1
+0 2 0 4
+1
+end_operator
+begin_operator
+move_tray tray2 kitchen table4
+0
+1
+0 2 0 5
+1
+end_operator
+begin_operator
+move_tray tray2 table0 kitchen
+0
+1
+0 2 1 0
+1
+end_operator
+begin_operator
+move_tray tray2 table0 table1
+0
+1
+0 2 1 2
+1
+end_operator
+begin_operator
+move_tray tray2 table0 table2
+0
+1
+0 2 1 3
+1
+end_operator
+begin_operator
+move_tray tray2 table0 table3
+0
+1
+0 2 1 4
+1
+end_operator
+begin_operator
+move_tray tray2 table0 table4
+0
+1
+0 2 1 5
+1
+end_operator
+begin_operator
+move_tray tray2 table1 kitchen
+0
+1
+0 2 2 0
+1
+end_operator
+begin_operator
+move_tray tray2 table1 table0
+0
+1
+0 2 2 1
+1
+end_operator
+begin_operator
+move_tray tray2 table1 table2
+0
+1
+0 2 2 3
+1
+end_operator
+begin_operator
+move_tray tray2 table1 table3
+0
+1
+0 2 2 4
+1
+end_operator
+begin_operator
+move_tray tray2 table1 table4
+0
+1
+0 2 2 5
+1
+end_operator
+begin_operator
+move_tray tray2 table2 kitchen
+0
+1
+0 2 3 0
+1
+end_operator
+begin_operator
+move_tray tray2 table2 table0
+0
+1
+0 2 3 1
+1
+end_operator
+begin_operator
+move_tray tray2 table2 table1
+0
+1
+0 2 3 2
+1
+end_operator
+begin_operator
+move_tray tray2 table2 table3
+0
+1
+0 2 3 4
+1
+end_operator
+begin_operator
+move_tray tray2 table2 table4
+0
+1
+0 2 3 5
+1
+end_operator
+begin_operator
+move_tray tray2 table3 kitchen
+0
+1
+0 2 4 0
+1
+end_operator
+begin_operator
+move_tray tray2 table3 table0
+0
+1
+0 2 4 1
+1
+end_operator
+begin_operator
+move_tray tray2 table3 table1
+0
+1
+0 2 4 2
+1
+end_operator
+begin_operator
+move_tray tray2 table3 table2
+0
+1
+0 2 4 3
+1
+end_operator
+begin_operator
+move_tray tray2 table3 table4
+0
+1
+0 2 4 5
+1
+end_operator
+begin_operator
+move_tray tray2 table4 kitchen
+0
+1
+0 2 5 0
+1
+end_operator
+begin_operator
+move_tray tray2 table4 table0
+0
+1
+0 2 5 1
+1
+end_operator
+begin_operator
+move_tray tray2 table4 table1
+0
+1
+0 2 5 2
+1
+end_operator
+begin_operator
+move_tray tray2 table4 table2
+0
+1
+0 2 5 3
+1
+end_operator
+begin_operator
+move_tray tray2 table4 table3
+0
+1
+0 2 5 4
+1
+end_operator
+begin_operator
+put_on_tray sandw0 tray0
+1
+0 0
+1
+0 3 0 2
+1
+end_operator
+begin_operator
+put_on_tray sandw0 tray1
+1
+1 0
+1
+0 3 0 3
+1
+end_operator
+begin_operator
+put_on_tray sandw0 tray2
+1
+2 0
+1
+0 3 0 4
+1
+end_operator
+begin_operator
+put_on_tray sandw1 tray0
+1
+0 0
+1
+0 4 0 2
+1
+end_operator
+begin_operator
+put_on_tray sandw1 tray1
+1
+1 0
+1
+0 4 0 3
+1
+end_operator
+begin_operator
+put_on_tray sandw1 tray2
+1
+2 0
+1
+0 4 0 4
+1
+end_operator
+begin_operator
+put_on_tray sandw2 tray0
+1
+0 0
+1
+0 5 0 2
+1
+end_operator
+begin_operator
+put_on_tray sandw2 tray1
+1
+1 0
+1
+0 5 0 3
+1
+end_operator
+begin_operator
+put_on_tray sandw2 tray2
+1
+2 0
+1
+0 5 0 4
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 child0 tray0 table0
+2
+0 1
+12 0
+2
+0 3 2 5
+0 15 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 child0 tray1 table0
+2
+1 1
+12 0
+2
+0 3 3 5
+0 15 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 child0 tray2 table0
+2
+2 1
+12 0
+2
+0 3 4 5
+0 15 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 child1 tray0 table1
+2
+0 2
+12 0
+2
+0 3 2 5
+0 16 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 child1 tray1 table1
+2
+1 2
+12 0
+2
+0 3 3 5
+0 16 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 child1 tray2 table1
+2
+2 2
+12 0
+2
+0 3 4 5
+0 16 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 child2 tray0 table2
+2
+0 3
+12 0
+2
+0 3 2 5
+0 17 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 child2 tray1 table2
+2
+1 3
+12 0
+2
+0 3 3 5
+0 17 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 child2 tray2 table2
+2
+2 3
+12 0
+2
+0 3 4 5
+0 17 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 child0 tray0 table0
+2
+0 1
+13 0
+2
+0 4 2 5
+0 15 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 child0 tray1 table0
+2
+1 1
+13 0
+2
+0 4 3 5
+0 15 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 child0 tray2 table0
+2
+2 1
+13 0
+2
+0 4 4 5
+0 15 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 child1 tray0 table1
+2
+0 2
+13 0
+2
+0 4 2 5
+0 16 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 child1 tray1 table1
+2
+1 2
+13 0
+2
+0 4 3 5
+0 16 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 child1 tray2 table1
+2
+2 2
+13 0
+2
+0 4 4 5
+0 16 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 child2 tray0 table2
+2
+0 3
+13 0
+2
+0 4 2 5
+0 17 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 child2 tray1 table2
+2
+1 3
+13 0
+2
+0 4 3 5
+0 17 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 child2 tray2 table2
+2
+2 3
+13 0
+2
+0 4 4 5
+0 17 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 child0 tray0 table0
+2
+0 1
+14 0
+2
+0 5 2 5
+0 15 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 child0 tray1 table0
+2
+1 1
+14 0
+2
+0 5 3 5
+0 15 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 child0 tray2 table0
+2
+2 1
+14 0
+2
+0 5 4 5
+0 15 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 child1 tray0 table1
+2
+0 2
+14 0
+2
+0 5 2 5
+0 16 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 child1 tray1 table1
+2
+1 2
+14 0
+2
+0 5 3 5
+0 16 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 child1 tray2 table1
+2
+2 2
+14 0
+2
+0 5 4 5
+0 16 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 child2 tray0 table2
+2
+0 3
+14 0
+2
+0 5 2 5
+0 17 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 child2 tray1 table2
+2
+1 3
+14 0
+2
+0 5 3 5
+0 17 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 child2 tray2 table2
+2
+2 3
+14 0
+2
+0 5 4 5
+0 17 -1 0
+1
+end_operator
+0

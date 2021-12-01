@@ -68,7 +68,7 @@ def findProbs(containingDir,pddlFiles):
     return probFiles
 
 
-benchmark = "."
+benchmark = "blocksworld-large-simple"
 
 
 pddlFiles = []
@@ -77,9 +77,9 @@ for r, d, f in os.walk(benchmark):
     for file in f:
         if '.pddl' in file:
             pddlFiles.append(os.path.join(r, file))
-redop = "../hsps/pddlcat -redop -a"
-prep_domain = "../hsps/pddlcat -prep -no-problem"
-prep_prob = "../hsps/pddlcat -prep -no-domain"
+redop = "../../hsps/pddlcat -redop -a"
+prep_domain = "../../hsps/pddlcat -prep -no-problem"
+prep_prob = "../../hsps/pddlcat -prep -no-domain"
 
 random.shuffle(pddlFiles)
 
