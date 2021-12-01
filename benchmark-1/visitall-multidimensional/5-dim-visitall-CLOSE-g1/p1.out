@@ -1,0 +1,7 @@
+; Time 8.747
+; Length 3
+; Makespan 3
+0: (move-3-p0-p0-p0-p0-p0) [1]
+1: (move-3-p0-p0-p0-p1-p0) [1]
+2: (move-0-p1-p0-p0-p1-p0) [1]
+; END OF PLAN

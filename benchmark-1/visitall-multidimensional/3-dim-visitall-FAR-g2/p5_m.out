@@ -1,0 +1,12 @@
+; Time 26.428
+; Length 8
+; Makespan 8
+0: (move-2-p0-p0-p0) [1]
+1: (move-0-p0-p34-p0) [1]
+2: (move-2-p31-p34-p0) [1]
+3: (move-2-p34-p34-p0) [1]
+4: (move-2-p32-p34-p0) [1]
+5: (move-2-p34-p34-p31) [1]
+6: (move-0-p32-p35-p0) [1]
+7: (move-2-p34-p35-p31) [1]
+; END OF PLAN

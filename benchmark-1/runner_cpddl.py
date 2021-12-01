@@ -46,7 +46,7 @@ class Command(object):
 
 
 
-benchmark = "."
+benchmark = "blocksworld-large-simple"
 
 
 pddlFiles = []

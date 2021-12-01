@@ -1,0 +1,8898 @@
+begin_version
+3
+end_version
+begin_metric
+1
+end_metric
+33
+begin_variable
+var0
+-1
+6
+at tray0 kitchen
+at tray0 table0
+at tray0 table1
+at tray0 table2
+at tray0 table3
+at tray0 table4
+end_variable
+begin_variable
+var1
+-1
+6
+at tray1 kitchen
+at tray1 table0
+at tray1 table1
+at tray1 table2
+at tray1 table3
+at tray1 table4
+end_variable
+begin_variable
+var2
+-1
+6
+at tray2 kitchen
+at tray2 table0
+at tray2 table1
+at tray2 table2
+at tray2 table3
+at tray2 table4
+end_variable
+begin_variable
+var3
+-1
+6
+at_kitchen_sandwich sandw0
+notexist sandw0
+ontray sandw0 tray0
+ontray sandw0 tray1
+ontray sandw0 tray2
+none-of-those
+end_variable
+begin_variable
+var4
+-1
+6
+at_kitchen_sandwich sandw1
+notexist sandw1
+ontray sandw1 tray0
+ontray sandw1 tray1
+ontray sandw1 tray2
+none-of-those
+end_variable
+begin_variable
+var5
+-1
+6
+at_kitchen_sandwich sandw2
+notexist sandw2
+ontray sandw2 tray0
+ontray sandw2 tray1
+ontray sandw2 tray2
+none-of-those
+end_variable
+begin_variable
+var6
+-1
+6
+at_kitchen_sandwich sandw3
+notexist sandw3
+ontray sandw3 tray0
+ontray sandw3 tray1
+ontray sandw3 tray2
+none-of-those
+end_variable
+begin_variable
+var7
+-1
+6
+at_kitchen_sandwich sandw4
+notexist sandw4
+ontray sandw4 tray0
+ontray sandw4 tray1
+ontray sandw4 tray2
+none-of-those
+end_variable
+begin_variable
+var8
+-1
+3
+sandwich_contents sandw0 content-0 content-1
+sandwich_contents sandw0 content-1 content-0
+none-of-those
+end_variable
+begin_variable
+var9
+-1
+3
+sandwich_contents sandw1 content-0 content-1
+sandwich_contents sandw1 content-1 content-0
+none-of-those
+end_variable
+begin_variable
+var10
+-1
+3
+sandwich_contents sandw2 content-0 content-1
+sandwich_contents sandw2 content-1 content-0
+none-of-those
+end_variable
+begin_variable
+var11
+-1
+3
+sandwich_contents sandw3 content-0 content-1
+sandwich_contents sandw3 content-1 content-0
+none-of-those
+end_variable
+begin_variable
+var12
+-1
+3
+sandwich_contents sandw4 content-0 content-1
+sandwich_contents sandw4 content-1 content-0
+none-of-those
+end_variable
+begin_variable
+var13
+-1
+2
+at_kitchen_bread bread0
+none-of-those
+end_variable
+begin_variable
+var14
+-1
+2
+at_kitchen_bread bread1
+none-of-those
+end_variable
+begin_variable
+var15
+-1
+2
+at_kitchen_bread bread2
+none-of-those
+end_variable
+begin_variable
+var16
+-1
+2
+at_kitchen_bread bread3
+none-of-those
+end_variable
+begin_variable
+var17
+-1
+2
+at_kitchen_bread bread4
+none-of-those
+end_variable
+begin_variable
+var18
+-1
+2
+at_kitchen_content content-0-0
+none-of-those
+end_variable
+begin_variable
+var19
+-1
+2
+at_kitchen_content content-0-1
+none-of-those
+end_variable
+begin_variable
+var20
+-1
+2
+at_kitchen_content content-0-2
+none-of-those
+end_variable
+begin_variable
+var21
+-1
+2
+at_kitchen_content content-0-3
+none-of-those
+end_variable
+begin_variable
+var22
+-1
+2
+at_kitchen_content content-0-4
+none-of-those
+end_variable
+begin_variable
+var23
+-1
+2
+at_kitchen_content content-1-0
+none-of-those
+end_variable
+begin_variable
+var24
+-1
+2
+at_kitchen_content content-1-1
+none-of-those
+end_variable
+begin_variable
+var25
+-1
+2
+at_kitchen_content content-1-2
+none-of-those
+end_variable
+begin_variable
+var26
+-1
+2
+at_kitchen_content content-1-3
+none-of-those
+end_variable
+begin_variable
+var27
+-1
+2
+at_kitchen_content content-1-4
+none-of-those
+end_variable
+begin_variable
+var28
+-1
+2
+served child0
+none-of-those
+end_variable
+begin_variable
+var29
+-1
+2
+served child1
+none-of-those
+end_variable
+begin_variable
+var30
+-1
+2
+served child2
+none-of-those
+end_variable
+begin_variable
+var31
+-1
+2
+served child3
+none-of-those
+end_variable
+begin_variable
+var32
+-1
+2
+served child4
+none-of-those
+end_variable
+38
+begin_mutex_group
+1
+13 0
+end_mutex_group
+begin_mutex_group
+1
+14 0
+end_mutex_group
+begin_mutex_group
+1
+15 0
+end_mutex_group
+begin_mutex_group
+1
+16 0
+end_mutex_group
+begin_mutex_group
+1
+17 0
+end_mutex_group
+begin_mutex_group
+1
+18 0
+end_mutex_group
+begin_mutex_group
+1
+19 0
+end_mutex_group
+begin_mutex_group
+1
+20 0
+end_mutex_group
+begin_mutex_group
+1
+21 0
+end_mutex_group
+begin_mutex_group
+1
+22 0
+end_mutex_group
+begin_mutex_group
+1
+23 0
+end_mutex_group
+begin_mutex_group
+1
+24 0
+end_mutex_group
+begin_mutex_group
+1
+25 0
+end_mutex_group
+begin_mutex_group
+1
+26 0
+end_mutex_group
+begin_mutex_group
+1
+27 0
+end_mutex_group
+begin_mutex_group
+1
+3 1
+end_mutex_group
+begin_mutex_group
+1
+4 1
+end_mutex_group
+begin_mutex_group
+1
+5 1
+end_mutex_group
+begin_mutex_group
+1
+6 1
+end_mutex_group
+begin_mutex_group
+1
+7 1
+end_mutex_group
+begin_mutex_group
+2
+3 0
+3 1
+end_mutex_group
+begin_mutex_group
+2
+4 0
+4 1
+end_mutex_group
+begin_mutex_group
+2
+5 0
+5 1
+end_mutex_group
+begin_mutex_group
+2
+6 0
+6 1
+end_mutex_group
+begin_mutex_group
+2
+7 0
+7 1
+end_mutex_group
+begin_mutex_group
+3
+3 1
+8 0
+8 1
+end_mutex_group
+begin_mutex_group
+3
+4 1
+9 0
+9 1
+end_mutex_group
+begin_mutex_group
+3
+5 1
+10 0
+10 1
+end_mutex_group
+begin_mutex_group
+3
+6 1
+11 0
+11 1
+end_mutex_group
+begin_mutex_group
+3
+7 1
+12 0
+12 1
+end_mutex_group
+begin_mutex_group
+5
+3 0
+3 1
+3 2
+3 3
+3 4
+end_mutex_group
+begin_mutex_group
+5
+4 0
+4 1
+4 2
+4 3
+4 4
+end_mutex_group
+begin_mutex_group
+5
+5 0
+5 1
+5 2
+5 3
+5 4
+end_mutex_group
+begin_mutex_group
+5
+6 0
+6 1
+6 2
+6 3
+6 4
+end_mutex_group
+begin_mutex_group
+5
+7 0
+7 1
+7 2
+7 3
+7 4
+end_mutex_group
+begin_mutex_group
+6
+0 0
+0 1
+0 2
+0 3
+0 4
+0 5
+end_mutex_group
+begin_mutex_group
+6
+1 0
+1 1
+1 2
+1 3
+1 4
+1 5
+end_mutex_group
+begin_mutex_group
+6
+2 0
+2 1
+2 2
+2 3
+2 4
+2 5
+end_mutex_group
+begin_state
+0
+0
+0
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+1
+1
+1
+1
+end_state
+begin_goal
+5
+28 0
+29 0
+30 0
+31 0
+32 0
+end_goal
+805
+begin_operator
+make_sandwich sandw0 bread0 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread0 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 13 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread1 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 14 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread2 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 15 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread3 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 16 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw0 bread4 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 3 1 0
+0 8 -1 0
+0 17 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread0 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 13 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread1 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 14 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread2 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 15 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread3 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 16 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw1 bread4 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 4 1 0
+0 9 -1 0
+0 17 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread0 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 13 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread1 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 14 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread2 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 15 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread3 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 16 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw2 bread4 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 5 1 0
+0 10 -1 0
+0 17 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread0 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 13 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread1 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 14 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread2 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 15 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread3 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 16 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw3 bread4 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 6 1 0
+0 11 -1 0
+0 17 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread0 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 13 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread1 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 14 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread2 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 15 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread3 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 16 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-0 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 18 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-0 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 18 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-0 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 18 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-0 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 18 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-0 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 18 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-1 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 19 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-1 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 19 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-1 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 19 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-1 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 19 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-1 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 19 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-2 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 20 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-2 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 20 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-2 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 20 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-2 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 20 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-2 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 20 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-3 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 21 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-3 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 21 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-3 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 21 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-3 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 21 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-3 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 21 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-4 content-1-0 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 22 0 1
+0 23 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-4 content-1-1 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 22 0 1
+0 24 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-4 content-1-2 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 22 0 1
+0 25 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-4 content-1-3 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 22 0 1
+0 26 0 1
+1
+end_operator
+begin_operator
+make_sandwich sandw4 bread4 content-0-4 content-1-4 content-0 content-1
+0
+5
+0 7 1 0
+0 12 -1 0
+0 17 0 1
+0 22 0 1
+0 27 0 1
+1
+end_operator
+begin_operator
+move_tray tray0 kitchen table0
+0
+1
+0 0 0 1
+1
+end_operator
+begin_operator
+move_tray tray0 kitchen table1
+0
+1
+0 0 0 2
+1
+end_operator
+begin_operator
+move_tray tray0 kitchen table2
+0
+1
+0 0 0 3
+1
+end_operator
+begin_operator
+move_tray tray0 kitchen table3
+0
+1
+0 0 0 4
+1
+end_operator
+begin_operator
+move_tray tray0 kitchen table4
+0
+1
+0 0 0 5
+1
+end_operator
+begin_operator
+move_tray tray0 table0 kitchen
+0
+1
+0 0 1 0
+1
+end_operator
+begin_operator
+move_tray tray0 table0 table1
+0
+1
+0 0 1 2
+1
+end_operator
+begin_operator
+move_tray tray0 table0 table2
+0
+1
+0 0 1 3
+1
+end_operator
+begin_operator
+move_tray tray0 table0 table3
+0
+1
+0 0 1 4
+1
+end_operator
+begin_operator
+move_tray tray0 table0 table4
+0
+1
+0 0 1 5
+1
+end_operator
+begin_operator
+move_tray tray0 table1 kitchen
+0
+1
+0 0 2 0
+1
+end_operator
+begin_operator
+move_tray tray0 table1 table0
+0
+1
+0 0 2 1
+1
+end_operator
+begin_operator
+move_tray tray0 table1 table2
+0
+1
+0 0 2 3
+1
+end_operator
+begin_operator
+move_tray tray0 table1 table3
+0
+1
+0 0 2 4
+1
+end_operator
+begin_operator
+move_tray tray0 table1 table4
+0
+1
+0 0 2 5
+1
+end_operator
+begin_operator
+move_tray tray0 table2 kitchen
+0
+1
+0 0 3 0
+1
+end_operator
+begin_operator
+move_tray tray0 table2 table0
+0
+1
+0 0 3 1
+1
+end_operator
+begin_operator
+move_tray tray0 table2 table1
+0
+1
+0 0 3 2
+1
+end_operator
+begin_operator
+move_tray tray0 table2 table3
+0
+1
+0 0 3 4
+1
+end_operator
+begin_operator
+move_tray tray0 table2 table4
+0
+1
+0 0 3 5
+1
+end_operator
+begin_operator
+move_tray tray0 table3 kitchen
+0
+1
+0 0 4 0
+1
+end_operator
+begin_operator
+move_tray tray0 table3 table0
+0
+1
+0 0 4 1
+1
+end_operator
+begin_operator
+move_tray tray0 table3 table1
+0
+1
+0 0 4 2
+1
+end_operator
+begin_operator
+move_tray tray0 table3 table2
+0
+1
+0 0 4 3
+1
+end_operator
+begin_operator
+move_tray tray0 table3 table4
+0
+1
+0 0 4 5
+1
+end_operator
+begin_operator
+move_tray tray0 table4 kitchen
+0
+1
+0 0 5 0
+1
+end_operator
+begin_operator
+move_tray tray0 table4 table0
+0
+1
+0 0 5 1
+1
+end_operator
+begin_operator
+move_tray tray0 table4 table1
+0
+1
+0 0 5 2
+1
+end_operator
+begin_operator
+move_tray tray0 table4 table2
+0
+1
+0 0 5 3
+1
+end_operator
+begin_operator
+move_tray tray0 table4 table3
+0
+1
+0 0 5 4
+1
+end_operator
+begin_operator
+move_tray tray1 kitchen table0
+0
+1
+0 1 0 1
+1
+end_operator
+begin_operator
+move_tray tray1 kitchen table1
+0
+1
+0 1 0 2
+1
+end_operator
+begin_operator
+move_tray tray1 kitchen table2
+0
+1
+0 1 0 3
+1
+end_operator
+begin_operator
+move_tray tray1 kitchen table3
+0
+1
+0 1 0 4
+1
+end_operator
+begin_operator
+move_tray tray1 kitchen table4
+0
+1
+0 1 0 5
+1
+end_operator
+begin_operator
+move_tray tray1 table0 kitchen
+0
+1
+0 1 1 0
+1
+end_operator
+begin_operator
+move_tray tray1 table0 table1
+0
+1
+0 1 1 2
+1
+end_operator
+begin_operator
+move_tray tray1 table0 table2
+0
+1
+0 1 1 3
+1
+end_operator
+begin_operator
+move_tray tray1 table0 table3
+0
+1
+0 1 1 4
+1
+end_operator
+begin_operator
+move_tray tray1 table0 table4
+0
+1
+0 1 1 5
+1
+end_operator
+begin_operator
+move_tray tray1 table1 kitchen
+0
+1
+0 1 2 0
+1
+end_operator
+begin_operator
+move_tray tray1 table1 table0
+0
+1
+0 1 2 1
+1
+end_operator
+begin_operator
+move_tray tray1 table1 table2
+0
+1
+0 1 2 3
+1
+end_operator
+begin_operator
+move_tray tray1 table1 table3
+0
+1
+0 1 2 4
+1
+end_operator
+begin_operator
+move_tray tray1 table1 table4
+0
+1
+0 1 2 5
+1
+end_operator
+begin_operator
+move_tray tray1 table2 kitchen
+0
+1
+0 1 3 0
+1
+end_operator
+begin_operator
+move_tray tray1 table2 table0
+0
+1
+0 1 3 1
+1
+end_operator
+begin_operator
+move_tray tray1 table2 table1
+0
+1
+0 1 3 2
+1
+end_operator
+begin_operator
+move_tray tray1 table2 table3
+0
+1
+0 1 3 4
+1
+end_operator
+begin_operator
+move_tray tray1 table2 table4
+0
+1
+0 1 3 5
+1
+end_operator
+begin_operator
+move_tray tray1 table3 kitchen
+0
+1
+0 1 4 0
+1
+end_operator
+begin_operator
+move_tray tray1 table3 table0
+0
+1
+0 1 4 1
+1
+end_operator
+begin_operator
+move_tray tray1 table3 table1
+0
+1
+0 1 4 2
+1
+end_operator
+begin_operator
+move_tray tray1 table3 table2
+0
+1
+0 1 4 3
+1
+end_operator
+begin_operator
+move_tray tray1 table3 table4
+0
+1
+0 1 4 5
+1
+end_operator
+begin_operator
+move_tray tray1 table4 kitchen
+0
+1
+0 1 5 0
+1
+end_operator
+begin_operator
+move_tray tray1 table4 table0
+0
+1
+0 1 5 1
+1
+end_operator
+begin_operator
+move_tray tray1 table4 table1
+0
+1
+0 1 5 2
+1
+end_operator
+begin_operator
+move_tray tray1 table4 table2
+0
+1
+0 1 5 3
+1
+end_operator
+begin_operator
+move_tray tray1 table4 table3
+0
+1
+0 1 5 4
+1
+end_operator
+begin_operator
+move_tray tray2 kitchen table0
+0
+1
+0 2 0 1
+1
+end_operator
+begin_operator
+move_tray tray2 kitchen table1
+0
+1
+0 2 0 2
+1
+end_operator
+begin_operator
+move_tray tray2 kitchen table2
+0
+1
+0 2 0 3
+1
+end_operator
+begin_operator
+move_tray tray2 kitchen table3
+0
+1
+0 2 0 4
+1
+end_operator
+begin_operator
+move_tray tray2 kitchen table4
+0
+1
+0 2 0 5
+1
+end_operator
+begin_operator
+move_tray tray2 table0 kitchen
+0
+1
+0 2 1 0
+1
+end_operator
+begin_operator
+move_tray tray2 table0 table1
+0
+1
+0 2 1 2
+1
+end_operator
+begin_operator
+move_tray tray2 table0 table2
+0
+1
+0 2 1 3
+1
+end_operator
+begin_operator
+move_tray tray2 table0 table3
+0
+1
+0 2 1 4
+1
+end_operator
+begin_operator
+move_tray tray2 table0 table4
+0
+1
+0 2 1 5
+1
+end_operator
+begin_operator
+move_tray tray2 table1 kitchen
+0
+1
+0 2 2 0
+1
+end_operator
+begin_operator
+move_tray tray2 table1 table0
+0
+1
+0 2 2 1
+1
+end_operator
+begin_operator
+move_tray tray2 table1 table2
+0
+1
+0 2 2 3
+1
+end_operator
+begin_operator
+move_tray tray2 table1 table3
+0
+1
+0 2 2 4
+1
+end_operator
+begin_operator
+move_tray tray2 table1 table4
+0
+1
+0 2 2 5
+1
+end_operator
+begin_operator
+move_tray tray2 table2 kitchen
+0
+1
+0 2 3 0
+1
+end_operator
+begin_operator
+move_tray tray2 table2 table0
+0
+1
+0 2 3 1
+1
+end_operator
+begin_operator
+move_tray tray2 table2 table1
+0
+1
+0 2 3 2
+1
+end_operator
+begin_operator
+move_tray tray2 table2 table3
+0
+1
+0 2 3 4
+1
+end_operator
+begin_operator
+move_tray tray2 table2 table4
+0
+1
+0 2 3 5
+1
+end_operator
+begin_operator
+move_tray tray2 table3 kitchen
+0
+1
+0 2 4 0
+1
+end_operator
+begin_operator
+move_tray tray2 table3 table0
+0
+1
+0 2 4 1
+1
+end_operator
+begin_operator
+move_tray tray2 table3 table1
+0
+1
+0 2 4 2
+1
+end_operator
+begin_operator
+move_tray tray2 table3 table2
+0
+1
+0 2 4 3
+1
+end_operator
+begin_operator
+move_tray tray2 table3 table4
+0
+1
+0 2 4 5
+1
+end_operator
+begin_operator
+move_tray tray2 table4 kitchen
+0
+1
+0 2 5 0
+1
+end_operator
+begin_operator
+move_tray tray2 table4 table0
+0
+1
+0 2 5 1
+1
+end_operator
+begin_operator
+move_tray tray2 table4 table1
+0
+1
+0 2 5 2
+1
+end_operator
+begin_operator
+move_tray tray2 table4 table2
+0
+1
+0 2 5 3
+1
+end_operator
+begin_operator
+move_tray tray2 table4 table3
+0
+1
+0 2 5 4
+1
+end_operator
+begin_operator
+put_on_tray sandw0 tray0
+1
+0 0
+1
+0 3 0 2
+1
+end_operator
+begin_operator
+put_on_tray sandw0 tray1
+1
+1 0
+1
+0 3 0 3
+1
+end_operator
+begin_operator
+put_on_tray sandw0 tray2
+1
+2 0
+1
+0 3 0 4
+1
+end_operator
+begin_operator
+put_on_tray sandw1 tray0
+1
+0 0
+1
+0 4 0 2
+1
+end_operator
+begin_operator
+put_on_tray sandw1 tray1
+1
+1 0
+1
+0 4 0 3
+1
+end_operator
+begin_operator
+put_on_tray sandw1 tray2
+1
+2 0
+1
+0 4 0 4
+1
+end_operator
+begin_operator
+put_on_tray sandw2 tray0
+1
+0 0
+1
+0 5 0 2
+1
+end_operator
+begin_operator
+put_on_tray sandw2 tray1
+1
+1 0
+1
+0 5 0 3
+1
+end_operator
+begin_operator
+put_on_tray sandw2 tray2
+1
+2 0
+1
+0 5 0 4
+1
+end_operator
+begin_operator
+put_on_tray sandw3 tray0
+1
+0 0
+1
+0 6 0 2
+1
+end_operator
+begin_operator
+put_on_tray sandw3 tray1
+1
+1 0
+1
+0 6 0 3
+1
+end_operator
+begin_operator
+put_on_tray sandw3 tray2
+1
+2 0
+1
+0 6 0 4
+1
+end_operator
+begin_operator
+put_on_tray sandw4 tray0
+1
+0 0
+1
+0 7 0 2
+1
+end_operator
+begin_operator
+put_on_tray sandw4 tray1
+1
+1 0
+1
+0 7 0 3
+1
+end_operator
+begin_operator
+put_on_tray sandw4 tray2
+1
+2 0
+1
+0 7 0 4
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 content-1 child0 tray0 table0
+2
+0 1
+8 0
+2
+0 3 2 5
+0 28 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 content-1 child0 tray1 table0
+2
+1 1
+8 0
+2
+0 3 3 5
+0 28 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 content-1 child0 tray2 table0
+2
+2 1
+8 0
+2
+0 3 4 5
+0 28 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 content-1 child1 tray0 table1
+2
+0 2
+8 0
+2
+0 3 2 5
+0 29 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 content-1 child1 tray1 table1
+2
+1 2
+8 0
+2
+0 3 3 5
+0 29 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 content-1 child1 tray2 table1
+2
+2 2
+8 0
+2
+0 3 4 5
+0 29 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 content-1 child2 tray0 table2
+2
+0 3
+8 0
+2
+0 3 2 5
+0 30 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 content-1 child2 tray1 table2
+2
+1 3
+8 0
+2
+0 3 3 5
+0 30 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 content-1 child2 tray2 table2
+2
+2 3
+8 0
+2
+0 3 4 5
+0 30 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 content-1 child3 tray0 table3
+2
+0 4
+8 0
+2
+0 3 2 5
+0 31 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 content-1 child3 tray1 table3
+2
+1 4
+8 0
+2
+0 3 3 5
+0 31 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 content-1 child3 tray2 table3
+2
+2 4
+8 0
+2
+0 3 4 5
+0 31 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 content-1 child4 tray0 table4
+2
+0 5
+8 0
+2
+0 3 2 5
+0 32 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 content-1 child4 tray1 table4
+2
+1 5
+8 0
+2
+0 3 3 5
+0 32 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw0 content-0 content-1 child4 tray2 table4
+2
+2 5
+8 0
+2
+0 3 4 5
+0 32 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 content-1 child0 tray0 table0
+2
+0 1
+9 0
+2
+0 4 2 5
+0 28 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 content-1 child0 tray1 table0
+2
+1 1
+9 0
+2
+0 4 3 5
+0 28 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 content-1 child0 tray2 table0
+2
+2 1
+9 0
+2
+0 4 4 5
+0 28 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 content-1 child1 tray0 table1
+2
+0 2
+9 0
+2
+0 4 2 5
+0 29 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 content-1 child1 tray1 table1
+2
+1 2
+9 0
+2
+0 4 3 5
+0 29 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 content-1 child1 tray2 table1
+2
+2 2
+9 0
+2
+0 4 4 5
+0 29 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 content-1 child2 tray0 table2
+2
+0 3
+9 0
+2
+0 4 2 5
+0 30 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 content-1 child2 tray1 table2
+2
+1 3
+9 0
+2
+0 4 3 5
+0 30 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 content-1 child2 tray2 table2
+2
+2 3
+9 0
+2
+0 4 4 5
+0 30 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 content-1 child3 tray0 table3
+2
+0 4
+9 0
+2
+0 4 2 5
+0 31 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 content-1 child3 tray1 table3
+2
+1 4
+9 0
+2
+0 4 3 5
+0 31 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 content-1 child3 tray2 table3
+2
+2 4
+9 0
+2
+0 4 4 5
+0 31 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 content-1 child4 tray0 table4
+2
+0 5
+9 0
+2
+0 4 2 5
+0 32 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 content-1 child4 tray1 table4
+2
+1 5
+9 0
+2
+0 4 3 5
+0 32 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw1 content-0 content-1 child4 tray2 table4
+2
+2 5
+9 0
+2
+0 4 4 5
+0 32 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 content-1 child0 tray0 table0
+2
+0 1
+10 0
+2
+0 5 2 5
+0 28 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 content-1 child0 tray1 table0
+2
+1 1
+10 0
+2
+0 5 3 5
+0 28 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 content-1 child0 tray2 table0
+2
+2 1
+10 0
+2
+0 5 4 5
+0 28 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 content-1 child1 tray0 table1
+2
+0 2
+10 0
+2
+0 5 2 5
+0 29 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 content-1 child1 tray1 table1
+2
+1 2
+10 0
+2
+0 5 3 5
+0 29 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 content-1 child1 tray2 table1
+2
+2 2
+10 0
+2
+0 5 4 5
+0 29 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 content-1 child2 tray0 table2
+2
+0 3
+10 0
+2
+0 5 2 5
+0 30 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 content-1 child2 tray1 table2
+2
+1 3
+10 0
+2
+0 5 3 5
+0 30 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 content-1 child2 tray2 table2
+2
+2 3
+10 0
+2
+0 5 4 5
+0 30 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 content-1 child3 tray0 table3
+2
+0 4
+10 0
+2
+0 5 2 5
+0 31 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 content-1 child3 tray1 table3
+2
+1 4
+10 0
+2
+0 5 3 5
+0 31 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 content-1 child3 tray2 table3
+2
+2 4
+10 0
+2
+0 5 4 5
+0 31 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 content-1 child4 tray0 table4
+2
+0 5
+10 0
+2
+0 5 2 5
+0 32 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 content-1 child4 tray1 table4
+2
+1 5
+10 0
+2
+0 5 3 5
+0 32 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw2 content-0 content-1 child4 tray2 table4
+2
+2 5
+10 0
+2
+0 5 4 5
+0 32 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw3 content-0 content-1 child0 tray0 table0
+2
+0 1
+11 0
+2
+0 6 2 5
+0 28 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw3 content-0 content-1 child0 tray1 table0
+2
+1 1
+11 0
+2
+0 6 3 5
+0 28 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw3 content-0 content-1 child0 tray2 table0
+2
+2 1
+11 0
+2
+0 6 4 5
+0 28 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw3 content-0 content-1 child1 tray0 table1
+2
+0 2
+11 0
+2
+0 6 2 5
+0 29 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw3 content-0 content-1 child1 tray1 table1
+2
+1 2
+11 0
+2
+0 6 3 5
+0 29 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw3 content-0 content-1 child1 tray2 table1
+2
+2 2
+11 0
+2
+0 6 4 5
+0 29 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw3 content-0 content-1 child2 tray0 table2
+2
+0 3
+11 0
+2
+0 6 2 5
+0 30 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw3 content-0 content-1 child2 tray1 table2
+2
+1 3
+11 0
+2
+0 6 3 5
+0 30 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw3 content-0 content-1 child2 tray2 table2
+2
+2 3
+11 0
+2
+0 6 4 5
+0 30 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw3 content-0 content-1 child3 tray0 table3
+2
+0 4
+11 0
+2
+0 6 2 5
+0 31 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw3 content-0 content-1 child3 tray1 table3
+2
+1 4
+11 0
+2
+0 6 3 5
+0 31 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw3 content-0 content-1 child3 tray2 table3
+2
+2 4
+11 0
+2
+0 6 4 5
+0 31 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw3 content-0 content-1 child4 tray0 table4
+2
+0 5
+11 0
+2
+0 6 2 5
+0 32 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw3 content-0 content-1 child4 tray1 table4
+2
+1 5
+11 0
+2
+0 6 3 5
+0 32 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw3 content-0 content-1 child4 tray2 table4
+2
+2 5
+11 0
+2
+0 6 4 5
+0 32 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw4 content-0 content-1 child0 tray0 table0
+2
+0 1
+12 0
+2
+0 7 2 5
+0 28 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw4 content-0 content-1 child0 tray1 table0
+2
+1 1
+12 0
+2
+0 7 3 5
+0 28 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw4 content-0 content-1 child0 tray2 table0
+2
+2 1
+12 0
+2
+0 7 4 5
+0 28 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw4 content-0 content-1 child1 tray0 table1
+2
+0 2
+12 0
+2
+0 7 2 5
+0 29 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw4 content-0 content-1 child1 tray1 table1
+2
+1 2
+12 0
+2
+0 7 3 5
+0 29 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw4 content-0 content-1 child1 tray2 table1
+2
+2 2
+12 0
+2
+0 7 4 5
+0 29 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw4 content-0 content-1 child2 tray0 table2
+2
+0 3
+12 0
+2
+0 7 2 5
+0 30 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw4 content-0 content-1 child2 tray1 table2
+2
+1 3
+12 0
+2
+0 7 3 5
+0 30 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw4 content-0 content-1 child2 tray2 table2
+2
+2 3
+12 0
+2
+0 7 4 5
+0 30 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw4 content-0 content-1 child3 tray0 table3
+2
+0 4
+12 0
+2
+0 7 2 5
+0 31 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw4 content-0 content-1 child3 tray1 table3
+2
+1 4
+12 0
+2
+0 7 3 5
+0 31 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw4 content-0 content-1 child3 tray2 table3
+2
+2 4
+12 0
+2
+0 7 4 5
+0 31 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw4 content-0 content-1 child4 tray0 table4
+2
+0 5
+12 0
+2
+0 7 2 5
+0 32 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw4 content-0 content-1 child4 tray1 table4
+2
+1 5
+12 0
+2
+0 7 3 5
+0 32 -1 0
+1
+end_operator
+begin_operator
+serve_sandwich sandw4 content-0 content-1 child4 tray2 table4
+2
+2 5
+12 0
+2
+0 7 4 5
+0 32 -1 0
+1
+end_operator
+0
