@@ -1,5 +1,7 @@
 package v8.gen.parser.visitall.group;
 
+import java.io.File;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -14,17 +16,23 @@ public class ReducedProblemConstructor {
 	private static final String SEPARATOR = ";;;";
 
 	public static void main(String[] args) {
-//		String prob = "../benchmark-1/visitall-multidimensional/3-dim-visitall-CLOSE-g1/p3_m.pddl";
-//		String mapFile = "../benchmark-1/visitall-multidimensional/3-dim-visitall-CLOSE-g1/p3_m_map.txt";
-//		String outFile = "../benchmark-1/visitall-multidimensional/3-dim-visitall-CLOSE-g1/p3_m.out";
-		
-		String prob = "../benchmark-1/rovers-large-simple/goal-2/p-r1-w1500-o1-1-g2.pddl";
-		String mapFile = "../benchmark-1/rovers-large-simple/goal-2/p-r1-w1500-o1-1-g2_map.txt";
-		String outFile = "../benchmark-1/rovers-large-simple/goal-2/p-r1-w1500-o1-1-g2.out";
-		
-		Map<String, Set<Action>> map = parseMap(mapFile);
-		Set<String> steps = parseSteps(outFile);
-		constructReducedDom(steps, prob, map);
+		String dir = "../benchmark-1/visitall-multidimensional";
+		Collection<File> allFiles = Utils.listFileTree(new File(dir));
+		for (File opsFile : allFiles) {
+			if (opsFile.getName().endsWith("ops.txt")) {
+				String opsFilePath = opsFile.getAbsolutePath();
+				System.out.println(opsFilePath);
+				String probFile = opsFilePath.replace("_ops.txt", "_p_prob.pddl");
+				String mapFile = opsFilePath.replace("_ops.txt", "_map.txt");
+				String outFile = opsFilePath.replace("_ops.txt", ".out");
+
+				Map<String, Set<Action>> map = parseMap(mapFile);
+				Set<String> steps = parseSteps(outFile);
+				constructReducedDom(steps, probFile, map);
+				System.out.println("STEPS: " + steps.size());
+				System.out.println("---------------------");
+			}
+		}
 	}
 
 	private static void constructReducedDom(Set<String> steps, String prob, Map<String, Set<Action>> map) {
@@ -36,7 +44,7 @@ public class ReducedProblemConstructor {
 //		System.out.println(domain);
 	}
 
-	private static Set<String> parseSteps(String outFile) {
+	static Set<String> parseSteps(String outFile) {
 		String content = Utils.read(outFile);
 		Set<String> result = new HashSet<>();
 		String[] lines = content.split("\n");

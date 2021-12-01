@@ -42,4 +42,28 @@ public class Parser {
 			}
 		}
 	}
+
+	public static Map<Set<String>, Set<Action>> parse(String file) {
+		System.out.println(file);
+		String content = Utils.read(file);
+		String[] parts = content.trim().split("-----");
+		Set<Action> allActions = new HashSet<>();
+		Map<Set<String>, Set<Action>> map = new HashMap<>();
+		for (String a : parts) {
+			if (a.isEmpty())
+				continue;
+			String[] lines = a.trim().split("\n");
+			if (lines.length > 0) {
+				Move m = new Move(lines[0]);
+				Set<Action> acts = map.get(m.getPreconds());
+				if (acts == null)
+					acts = new HashSet<>();
+				acts.add(m);
+				map.put(m.getPreconds(), acts);
+				allActions.add(m);
+			}
+		}
+		VParentDomainConstructor.construct(file, map);
+		return map;
+	}
 }
